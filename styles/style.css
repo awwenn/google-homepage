@@ -18,6 +18,10 @@ body {
   justify-content: space-between;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .top-nav-right {
   padding-right: 50px;
 }
@@ -50,6 +54,7 @@ input[type=search] {
   margin: auto;
   border: 1px solid #ddd;
   box-shadow: 0 2px 5px -4px black;
+  padding: 10px;
 }
 
 .search {
@@ -66,6 +71,10 @@ input[type=submit] {
   font-size: 15px;
   border: 1px solid #eee;
   padding: 10px 20px;
+}
+
+input:hover {
+  border: 1px solid #757575;
 }
 
 .footer-bar {
